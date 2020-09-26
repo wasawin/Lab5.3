@@ -36,23 +36,33 @@ int main(void)
         break;
 
         case 4:
-        sum=num1/num2;
+        
         if(num2==0.0)
-          if(num1==0.0)
+          if(num1==0.0){
           printf("zero/zero is undefined");
-          else
+          }
+          else{
           printf("Divide by Zero!!!");
-          else
+          }
+          else{
+          sum=num1/num2;
           printf("Answer is %.3f / %.3f = %.3f \n",num1,num2,sum);
+          }
         break;
 
         case 5:
-        sum=(int)num1%(int)num2; 
-        printf("Answer is %.3f %% %.3f = %.3f \n",num1,num2,sum);
+          if(num2==0.0){
+          printf("Divide by Zero!!!");
+          }
+          else{
+          sum=(int)num1%(int)num2;
+          printf("Answer is %.3f %% %.3f = %.3f \n",num1,num2,sum);
+          }
+        
         break;
 
         default:
-        printf("Please select choice 1-5");
+        printf("Please select choice 1-5 ");
       
       }
   return 0;
