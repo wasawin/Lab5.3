@@ -37,11 +37,7 @@ int main(void)
 
         case 4:
         
-        if(num2==0.0)
-          if(num1==0.0){
-          printf("zero/zero is undefined");
-          }
-          else{
+        if(num2==0.0){
           printf("Divide by Zero!!!");
           }
           else{
