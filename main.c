@@ -36,7 +36,6 @@ int main(void)
         break;
 
         case 4:
-        
         if(num2==0.0){
           printf("Divide by Zero!!!");
           }
@@ -54,7 +53,6 @@ int main(void)
           sum=(int)num1%(int)num2;
           printf("Answer is %.3f %% %.3f = %.3f \n",num1,num2,sum);
           }
-        
         break;
 
         default:
